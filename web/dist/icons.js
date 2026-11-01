@@ -1,0 +1,26 @@
+const paths={
+  grid:'M3 3h7v7H3z M14 3h7v7h-7z M3 14h7v7H3z M14 14h7v7h-7z',
+  star:'m12 2 3.1 6.3 6.9 1-5 4.9 1.2 6.8-6.2-3.2-6.2 3.2L7 14.2 2 9.3l6.9-1z',
+  search:'M21 21l-5.2-5.2 M18 10a8 8 0 1 1-16 0 8 8 0 0 1 16 0',
+  library:'M4 4v16 M8 4v16 M12 4v16 M16 5l4 14',
+  network:'M12 6v6 M5 17v-5h14v5 M9 2h6v4H9z M2 17h6v5H2z M16 17h6v5h-6z',
+  plus:'M12 4v16 M4 12h16',minus:'M4 12h16',
+  settings:'M5 3v18 M12 3v18 M19 3v18 M2 8h6 M9 16h6 M16 8h6',
+  target:'M12 2v4 M12 18v4 M2 12h4 M18 12h4 M20 12a8 8 0 1 1-16 0 8 8 0 0 1 16 0',
+  expand:'M3 9V3h6 M15 3h6v6 M21 15v6h-6 M9 21H3v-6',
+  drive:'M6 4h12l4 12v4H2v-4z M2 16h20 M7 19h1 M17 19h1',
+  bell:'M6 8a6 6 0 0 1 12 0v6l2 3H4l2-3z M10 21h4',
+  chevron:'m7 10 5 5 5-5',close:'M6 6l12 12 M18 6 6 18',
+  link:'m10 13 4-4 M8 16l-1 1a4 4 0 0 1-6-6l5-5a4 4 0 0 1 6 0 M16 8l1-1a4 4 0 0 1 6 6l-5 5a4 4 0 0 1-6 0',
+  note:'M5 3h14v18H5z M8 8h8 M8 12h8 M8 16h5',
+  shield:'m12 2 8 4v6c0 5-8 10-8 10S4 17 4 12V6z M8 12l3 3 5-6',
+  copy:'M8 8h13v13H8z M16 8V3H3v13h5',
+  rack:'M3 2h18v20H3z M3 8h18 M3 15h18 M7 5h.1 M7 12h.1 M7 18h.1 M15 5h3 M15 12h3 M15 18h3',
+  layers:'m12 2 10 5-10 5L2 7z M2 12l10 5 10-5 M2 17l10 5 10-5',
+  logout:'M9 3H3v18h6 M9 12h13 M17 7l5 5-5 5',
+  check:'m4 12 5 5L20 6',arrow:'M5 19 19 5 M5 5h14v14',
+  filter:'M3 6h18 M6 12h12 M9 18h6',trash:'M3 6h18 M9 6V3h6v3 M6 6l1 15h10l1-15 M10 10v7 M14 10v7',
+  spark:'m12 2 2.5 7.5L22 12l-7.5 2.5L12 22l-2.5-7.5L2 12l7.5-2.5z',
+};
+export function icon(name){const svg=document.createElementNS('http://www.w3.org/2000/svg','svg');svg.setAttribute('viewBox','0 0 24 24');svg.setAttribute('fill','none');svg.setAttribute('stroke','currentColor');svg.setAttribute('stroke-width','1.65');svg.setAttribute('stroke-linecap','round');svg.setAttribute('stroke-linejoin','round');svg.setAttribute('aria-hidden','true');const p=document.createElementNS(svg.namespaceURI,'path');p.setAttribute('d',paths[name]??paths.link);svg.append(p);return svg;}
+export function installIcons(root=document){root.querySelectorAll('[data-icon]').forEach(node=>node.replaceChildren(icon(node.dataset.icon)));}

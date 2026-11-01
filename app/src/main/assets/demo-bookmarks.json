@@ -1,0 +1,502 @@
+[
+  {
+    "url": "https://github.com/android/compose-samples",
+    "title": "Compose Samples",
+    "category": "Dev / GitHub"
+  },
+  {
+    "url": "https://www.figma.com/community",
+    "title": "UI Mockups",
+    "category": "Design"
+  },
+  {
+    "url": "https://www.notion.so/product",
+    "title": "Ghi chú App",
+    "category": "Ghi chú"
+  },
+  {
+    "url": "https://console.anthropic.com/",
+    "title": "Claude API",
+    "category": "Models AI"
+  },
+  {
+    "url": "https://huggingface.co/models",
+    "title": "Models AI",
+    "category": "Models AI"
+  },
+  {
+    "url": "https://www.facebook.com/Google",
+    "title": "Google",
+    "category": "Mạng xã hội"
+  },
+  {
+    "url": "https://www.tiktok.com/@tiktok",
+    "title": "@tiktok",
+    "category": "Mạng xã hội"
+  },
+  {
+    "url": "https://drive.google.com/drive/u/0/search?q=Jetpack%20Compose",
+    "title": "Jetpack Compose",
+    "category": "Tài liệu"
+  },
+  {
+    "url": "https://onedrive.live.com/?qt=search&q=Jetpack%20Compose",
+    "title": "Jetpack Compose",
+    "category": "Tài liệu"
+  },
+  {
+    "url": "https://www.google.com/search?q=Jetpack%20Compose",
+    "title": "Jetpack Compose",
+    "category": "Khám phá"
+  },
+  {
+    "url": "https://www.facebook.com/Microsoft",
+    "title": "Microsoft",
+    "category": "Mạng xã hội"
+  },
+  {
+    "url": "https://www.tiktok.com/@nasa",
+    "title": "@nasa",
+    "category": "Mạng xã hội"
+  },
+  {
+    "url": "https://github.com/android/architecture-samples",
+    "title": "android/architecture-samples",
+    "category": "Dev / GitHub"
+  },
+  {
+    "url": "https://drive.google.com/drive/u/0/search?q=Android",
+    "title": "Android",
+    "category": "Tài liệu"
+  },
+  {
+    "url": "https://onedrive.live.com/?qt=search&q=Android",
+    "title": "Android",
+    "category": "Tài liệu"
+  },
+  {
+    "url": "https://www.google.com/search?q=Android",
+    "title": "Android",
+    "category": "Khám phá"
+  },
+  {
+    "url": "https://www.facebook.com/NASA",
+    "title": "NASA",
+    "category": "Mạng xã hội"
+  },
+  {
+    "url": "https://www.tiktok.com/@natgeo",
+    "title": "@natgeo",
+    "category": "Mạng xã hội"
+  },
+  {
+    "url": "https://github.com/android/nowinandroid",
+    "title": "android/nowinandroid",
+    "category": "Dev / GitHub"
+  },
+  {
+    "url": "https://drive.google.com/drive/u/0/search?q=Kotlin",
+    "title": "Kotlin",
+    "category": "Tài liệu"
+  },
+  {
+    "url": "https://onedrive.live.com/?qt=search&q=Kotlin",
+    "title": "Kotlin",
+    "category": "Tài liệu"
+  },
+  {
+    "url": "https://www.google.com/search?q=Kotlin",
+    "title": "Kotlin",
+    "category": "Khám phá"
+  },
+  {
+    "url": "https://www.facebook.com/NatGeo",
+    "title": "NatGeo",
+    "category": "Mạng xã hội"
+  },
+  {
+    "url": "https://www.tiktok.com/@google",
+    "title": "@google",
+    "category": "Khám phá"
+  },
+  {
+    "url": "https://github.com/JetBrains/kotlin",
+    "title": "JetBrains/kotlin",
+    "category": "Dev / GitHub"
+  },
+  {
+    "url": "https://drive.google.com/drive/u/0/search?q=SwiftUI",
+    "title": "SwiftUI",
+    "category": "Tài liệu"
+  },
+  {
+    "url": "https://onedrive.live.com/?qt=search&q=SwiftUI",
+    "title": "SwiftUI",
+    "category": "Tài liệu"
+  },
+  {
+    "url": "https://www.google.com/search?q=SwiftUI",
+    "title": "SwiftUI",
+    "category": "Khám phá"
+  },
+  {
+    "url": "https://www.facebook.com/Adobe",
+    "title": "Adobe",
+    "category": "Mạng xã hội"
+  },
+  {
+    "url": "https://www.tiktok.com/@microsoft",
+    "title": "@microsoft",
+    "category": "Mạng xã hội"
+  },
+  {
+    "url": "https://github.com/JetBrains/compose-multiplatform",
+    "title": "JetBrains/compose-multiplatform",
+    "category": "Dev / GitHub"
+  },
+  {
+    "url": "https://drive.google.com/drive/u/0/search?q=Thi%E1%BA%BFt%20k%E1%BA%BF%20UI",
+    "title": "Thiết kế UI",
+    "category": "Tài liệu"
+  },
+  {
+    "url": "https://onedrive.live.com/?qt=search&q=Thi%E1%BA%BFt%20k%E1%BA%BF%20UI",
+    "title": "Thiết kế UI",
+    "category": "Tài liệu"
+  },
+  {
+    "url": "https://www.google.com/search?q=Thi%E1%BA%BFt%20k%E1%BA%BF%20UI",
+    "title": "Thiết kế UI",
+    "category": "Khám phá"
+  },
+  {
+    "url": "https://www.facebook.com/figma",
+    "title": "figma",
+    "category": "Mạng xã hội"
+  },
+  {
+    "url": "https://www.tiktok.com/@adobe",
+    "title": "@adobe",
+    "category": "Mạng xã hội"
+  },
+  {
+    "url": "https://github.com/Kotlin/kotlinx.coroutines",
+    "title": "Kotlin/kotlinx.coroutines",
+    "category": "Dev / GitHub"
+  },
+  {
+    "url": "https://drive.google.com/drive/u/0/search?q=Design%20system",
+    "title": "Design system",
+    "category": "Tài liệu"
+  },
+  {
+    "url": "https://onedrive.live.com/?qt=search&q=Design%20system",
+    "title": "Design system",
+    "category": "Tài liệu"
+  },
+  {
+    "url": "https://www.google.com/search?q=Design%20system",
+    "title": "Design system",
+    "category": "Khám phá"
+  },
+  {
+    "url": "https://www.facebook.com/GitHub",
+    "title": "GitHub",
+    "category": "Mạng xã hội"
+  },
+  {
+    "url": "https://www.tiktok.com/@figma",
+    "title": "@figma",
+    "category": "Mạng xã hội"
+  },
+  {
+    "url": "https://github.com/Kotlin/kotlinx.serialization",
+    "title": "Kotlin/kotlinx.serialization",
+    "category": "Dev / GitHub"
+  },
+  {
+    "url": "https://drive.google.com/drive/u/0/search?q=Figma",
+    "title": "Figma",
+    "category": "Tài liệu"
+  },
+  {
+    "url": "https://onedrive.live.com/?qt=search&q=Figma",
+    "title": "Figma",
+    "category": "Tài liệu"
+  },
+  {
+    "url": "https://www.google.com/search?q=Figma",
+    "title": "Figma",
+    "category": "Khám phá"
+  },
+  {
+    "url": "https://www.facebook.com/AndroidOfficial",
+    "title": "AndroidOfficial",
+    "category": "Mạng xã hội"
+  },
+  {
+    "url": "https://www.tiktok.com/@github",
+    "title": "@github",
+    "category": "Mạng xã hội"
+  },
+  {
+    "url": "https://github.com/square/okhttp",
+    "title": "square/okhttp",
+    "category": "Dev / GitHub"
+  },
+  {
+    "url": "https://drive.google.com/drive/u/0/search?q=Ghi%20ch%C3%BA",
+    "title": "Ghi chú",
+    "category": "Tài liệu"
+  },
+  {
+    "url": "https://onedrive.live.com/?qt=search&q=Ghi%20ch%C3%BA",
+    "title": "Ghi chú",
+    "category": "Tài liệu"
+  },
+  {
+    "url": "https://www.google.com/search?q=Ghi%20ch%C3%BA",
+    "title": "Ghi chú",
+    "category": "Khám phá"
+  },
+  {
+    "url": "https://www.facebook.com/Samsung",
+    "title": "Samsung",
+    "category": "Mạng xã hội"
+  },
+  {
+    "url": "https://www.tiktok.com/@android",
+    "title": "@android",
+    "category": "Mạng xã hội"
+  },
+  {
+    "url": "https://github.com/square/retrofit",
+    "title": "square/retrofit",
+    "category": "Dev / GitHub"
+  },
+  {
+    "url": "https://drive.google.com/drive/u/0/search?q=D%E1%BB%B1%20%C3%A1n%20c%C3%A1%20nh%C3%A2n",
+    "title": "Dự án cá nhân",
+    "category": "Tài liệu"
+  },
+  {
+    "url": "https://onedrive.live.com/?qt=search&q=D%E1%BB%B1%20%C3%A1n%20c%C3%A1%20nh%C3%A2n",
+    "title": "Dự án cá nhân",
+    "category": "Tài liệu"
+  },
+  {
+    "url": "https://www.google.com/search?q=D%E1%BB%B1%20%C3%A1n%20c%C3%A1%20nh%C3%A2n",
+    "title": "Dự án cá nhân",
+    "category": "Khám phá"
+  },
+  {
+    "url": "https://www.facebook.com/Apple",
+    "title": "Apple",
+    "category": "Mạng xã hội"
+  },
+  {
+    "url": "https://www.tiktok.com/@samsung",
+    "title": "@samsung",
+    "category": "Mạng xã hội"
+  },
+  {
+    "url": "https://github.com/coil-kt/coil",
+    "title": "coil-kt/coil",
+    "category": "Dev / GitHub"
+  },
+  {
+    "url": "https://drive.google.com/drive/u/0/search?q=T%C3%A0i%20li%E1%BB%87u%20h%E1%BB%8Dc%20t%E1%BA%ADp",
+    "title": "Tài liệu học tập",
+    "category": "Tài liệu"
+  },
+  {
+    "url": "https://onedrive.live.com/?qt=search&q=T%C3%A0i%20li%E1%BB%87u%20h%E1%BB%8Dc%20t%E1%BA%ADp",
+    "title": "Tài liệu học tập",
+    "category": "Tài liệu"
+  },
+  {
+    "url": "https://www.google.com/search?q=T%C3%A0i%20li%E1%BB%87u%20h%E1%BB%8Dc%20t%E1%BA%ADp",
+    "title": "Tài liệu học tập",
+    "category": "Khám phá"
+  },
+  {
+    "url": "https://www.facebook.com/NVIDIA",
+    "title": "NVIDIA",
+    "category": "Mạng xã hội"
+  },
+  {
+    "url": "https://www.tiktok.com/@apple",
+    "title": "@apple",
+    "category": "Mạng xã hội"
+  },
+  {
+    "url": "https://github.com/androidx/androidx",
+    "title": "androidx/androidx",
+    "category": "Dev / GitHub"
+  },
+  {
+    "url": "https://drive.google.com/drive/u/0/search?q=Portfolio",
+    "title": "Portfolio",
+    "category": "Tài liệu"
+  },
+  {
+    "url": "https://onedrive.live.com/?qt=search&q=Portfolio",
+    "title": "Portfolio",
+    "category": "Tài liệu"
+  },
+  {
+    "url": "https://www.google.com/search?q=Portfolio",
+    "title": "Portfolio",
+    "category": "Khám phá"
+  },
+  {
+    "url": "https://www.facebook.com/Intel",
+    "title": "Intel",
+    "category": "Mạng xã hội"
+  },
+  {
+    "url": "https://www.tiktok.com/@nvidia",
+    "title": "@nvidia",
+    "category": "Mạng xã hội"
+  },
+  {
+    "url": "https://github.com/google/iosched",
+    "title": "google/iosched",
+    "category": "Dev / GitHub"
+  },
+  {
+    "url": "https://drive.google.com/drive/u/0/search?q=%E1%BA%A2nh%20tham%20kh%E1%BA%A3o",
+    "title": "Ảnh tham khảo",
+    "category": "Tài liệu"
+  },
+  {
+    "url": "https://onedrive.live.com/?qt=search&q=%E1%BA%A2nh%20tham%20kh%E1%BA%A3o",
+    "title": "Ảnh tham khảo",
+    "category": "Tài liệu"
+  },
+  {
+    "url": "https://www.google.com/search?q=%E1%BA%A2nh%20tham%20kh%E1%BA%A3o",
+    "title": "Ảnh tham khảo",
+    "category": "Khám phá"
+  },
+  {
+    "url": "https://www.facebook.com/Meta",
+    "title": "Meta",
+    "category": "Mạng xã hội"
+  },
+  {
+    "url": "https://www.tiktok.com/@intel",
+    "title": "@intel",
+    "category": "Mạng xã hội"
+  },
+  {
+    "url": "https://github.com/flutter/flutter",
+    "title": "flutter/flutter",
+    "category": "Dev / GitHub"
+  },
+  {
+    "url": "https://drive.google.com/drive/u/0/search?q=S%C3%A1ch",
+    "title": "Sách",
+    "category": "Tài liệu"
+  },
+  {
+    "url": "https://onedrive.live.com/?qt=search&q=S%C3%A1ch",
+    "title": "Sách",
+    "category": "Tài liệu"
+  },
+  {
+    "url": "https://www.google.com/search?q=S%C3%A1ch",
+    "title": "Sách",
+    "category": "Khám phá"
+  },
+  {
+    "url": "https://www.facebook.com/YouTube",
+    "title": "YouTube",
+    "category": "Mạng xã hội"
+  },
+  {
+    "url": "https://www.tiktok.com/@youtube",
+    "title": "@youtube",
+    "category": "Mạng xã hội"
+  },
+  {
+    "url": "https://github.com/facebook/react",
+    "title": "facebook/react",
+    "category": "Dev / GitHub"
+  },
+  {
+    "url": "https://drive.google.com/drive/u/0/search?q=Nghi%C3%AAn%20c%E1%BB%A9u%20AI",
+    "title": "Nghiên cứu AI",
+    "category": "Tài liệu"
+  },
+  {
+    "url": "https://onedrive.live.com/?qt=search&q=Nghi%C3%AAn%20c%E1%BB%A9u%20AI",
+    "title": "Nghiên cứu AI",
+    "category": "Tài liệu"
+  },
+  {
+    "url": "https://www.google.com/search?q=Nghi%C3%AAn%20c%E1%BB%A9u%20AI",
+    "title": "Nghiên cứu AI",
+    "category": "Khám phá"
+  },
+  {
+    "url": "https://www.facebook.com/Spotify",
+    "title": "Spotify",
+    "category": "Mạng xã hội"
+  },
+  {
+    "url": "https://www.tiktok.com/@spotify",
+    "title": "@spotify",
+    "category": "Mạng xã hội"
+  },
+  {
+    "url": "https://github.com/vercel/next.js",
+    "title": "vercel/next.js",
+    "category": "Dev / GitHub"
+  },
+  {
+    "url": "https://drive.google.com/drive/u/0/search?q=L%E1%BA%ADp%20tr%C3%ACnh%20web",
+    "title": "Lập trình web",
+    "category": "Tài liệu"
+  },
+  {
+    "url": "https://onedrive.live.com/?qt=search&q=L%E1%BA%ADp%20tr%C3%ACnh%20web",
+    "title": "Lập trình web",
+    "category": "Tài liệu"
+  },
+  {
+    "url": "https://www.google.com/search?q=L%E1%BA%ADp%20tr%C3%ACnh%20web",
+    "title": "Lập trình web",
+    "category": "Khám phá"
+  },
+  {
+    "url": "https://www.facebook.com/Netflix",
+    "title": "Netflix",
+    "category": "Mạng xã hội"
+  },
+  {
+    "url": "https://www.tiktok.com/@netflix",
+    "title": "@netflix",
+    "category": "Mạng xã hội"
+  },
+  {
+    "url": "https://github.com/vuejs/core",
+    "title": "vuejs/core",
+    "category": "Dev / GitHub"
+  },
+  {
+    "url": "https://drive.google.com/drive/u/0/search?q=%C4%90%E1%BB%93ng%20b%E1%BB%99%20d%E1%BB%AF%20li%E1%BB%87u",
+    "title": "Đồng bộ dữ liệu",
+    "category": "Tài liệu"
+  },
+  {
+    "url": "https://onedrive.live.com/?qt=search&q=%C4%90%E1%BB%93ng%20b%E1%BB%99%20d%E1%BB%AF%20li%E1%BB%87u",
+    "title": "Đồng bộ dữ liệu",
+    "category": "Tài liệu"
+  },
+  {
+    "url": "https://www.google.com/search?q=%C4%90%E1%BB%93ng%20b%E1%BB%99%20d%E1%BB%AF%20li%E1%BB%87u",
+    "title": "Đồng bộ dữ liệu",
+    "category": "Khám phá"
+  }
+]

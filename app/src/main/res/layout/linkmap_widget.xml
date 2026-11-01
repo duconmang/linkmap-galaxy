@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:padding="16dp" android:background="#071329">
+    <TextView android:id="@+id/widget_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="LinkMap" android:textColor="#FFFFFF" android:textSize="18sp" android:textStyle="bold" />
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+        <Button android:id="@+id/widget_add" android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content" android:minHeight="48dp" android:text="+ Lưu link" android:textAllCaps="false" />
+        <Button android:id="@+id/widget_search" android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content" android:minHeight="48dp" android:text="Tìm lại" android:textAllCaps="false" />
+    </LinearLayout>
+</LinearLayout>

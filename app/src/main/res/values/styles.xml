@@ -1,0 +1,10 @@
+<resources>
+    <style name="Theme.LinkMap" parent="android:style/Theme.Material.NoActionBar">
+        <item name="android:fontFamily">sans</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:statusBarColor">#050D1C</item>
+        <item name="android:navigationBarColor">#050D1C</item>
+        <item name="android:windowBackground">#050D1C</item>
+        <item name="android:colorAccent">#529AFF</item>
+    </style>
+</resources>

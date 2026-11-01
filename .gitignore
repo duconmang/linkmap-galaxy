@@ -1,0 +1,61 @@
+# Local tooling, caches, IDEs and temporary work
+.gradle/
+.kotlin/
+.gradle-user/
+**/build/
+.tmp/
+.idea/
+.vscode/
+*.iml
+*.hprof
+node_modules/
+.codex/
+.agents/
+.codex-remote-attachments/
+.openai/
+.sites/
+.DS_Store
+Thumbs.db
+
+# Machine-specific SDK / signing / environment configuration
+local.properties
+.env
+.env.*
+!.env.example
+key.properties
+keystore.properties
+signing.properties
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.pem
+*.key
+client_secret*.json
+credentials*.json
+service-account*.json
+google-services.json
+
+# Tokens, user databases, logs and backup exports
+*token*.json
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+*.sqlite-*
+*.log
+*backup*.json
+LinkMap-*.json
+
+# Built installers, archives and private verification captures
+/dist/
+*.apk
+*.aab
+*.apks
+*.zip
+*.tgz
+*.tar.gz
+/docs/screenshots/
+/docs/concepts/
+
+# web/dist is the checked-in static application, not a private build cache.

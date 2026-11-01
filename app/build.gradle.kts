@@ -3,6 +3,11 @@ plugins {
     kotlin("android")
     id("org.jetbrains.kotlin.plugin.compose")
 }
+val releaseStore = providers.environmentVariable("LINKMAP_KEYSTORE_FILE").orNull
+val releaseStorePassword = providers.environmentVariable("LINKMAP_KEYSTORE_PASSWORD").orNull
+val releaseAlias = providers.environmentVariable("LINKMAP_KEY_ALIAS").orNull
+val releaseKeyPassword = providers.environmentVariable("LINKMAP_KEY_PASSWORD").orNull ?: releaseStorePassword
+val releaseSigningReady = listOf(releaseStore, releaseStorePassword, releaseAlias, releaseKeyPassword).all { !it.isNullOrBlank() }
 android {
     namespace = "vn.linkmap"
     compileSdk = 36
@@ -10,10 +15,26 @@ android {
         applicationId = "vn.linkmap"
         minSdk = 26
         targetSdk = 36
-        versionCode = 13
-        versionName = "0.7.0"
+        versionCode = 14
+        versionName = "0.7.1"
         buildConfigField("String", "GOOGLE_WEB_CLIENT_ID", "\"${providers.gradleProperty("googleWebClientId").orNull ?: ""}\"")
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+    }
+    signingConfigs {
+        if (releaseSigningReady) {
+            create("release") {
+                storeFile = file(requireNotNull(releaseStore))
+                storePassword = releaseStorePassword
+                keyAlias = releaseAlias
+                keyPassword = releaseKeyPassword
+            }
+        }
+    }
+    buildTypes {
+        getByName("release") {
+            isDebuggable = false
+            if (releaseSigningReady) signingConfig = signingConfigs.getByName("release")
+        }
     }
     buildFeatures { compose = true; buildConfig = true }
     compileOptions {
@@ -22,6 +43,13 @@ android {
     }
     kotlinOptions { jvmTarget = "21" }
 }
+
+val verifyReleaseSigning = tasks.register("verifyReleaseSigning") {
+    doLast {
+        check(releaseSigningReady) { "Release signing is missing. Use scripts/build-release.ps1 or provide LINKMAP_KEYSTORE_FILE, LINKMAP_KEYSTORE_PASSWORD and LINKMAP_KEY_ALIAS." }
+    }
+}
+tasks.matching { it.name == "preReleaseBuild" }.configureEach { dependsOn(verifyReleaseSigning) }
 dependencies {
     implementation(project(":core"))
     implementation(platform("androidx.compose:compose-bom:2025.10.01"))

@@ -6,7 +6,9 @@
 
 **Demo 150 link:** https://duconmang.github.io/linkmap-galaxy/?demo=150
 
-**Phiên bản mã hiện tại:** Android 0.7.0 · Web 0.8.1.
+**Phiên bản mã hiện tại:** Android 0.7.1 · Web 0.8.1.
+
+**Android ký release:** [APK / AAB / SHA-256 trên GitHub Releases](https://github.com/duconmang/linkmap-galaxy/releases/tag/android-v0.7.1). APK dùng để cài trực tiếp; AAB dùng để chuẩn bị upload Play Console. Xem [hướng dẫn ký và sao lưu khóa](docs/ANDROID-RELEASE.md). OAuth vẫn Testing; bản release ký số không đồng nghĩa đã được Play duyệt Production.
 
 ## Tính năng
 

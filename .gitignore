@@ -25,6 +25,7 @@ local.properties
 key.properties
 keystore.properties
 signing.properties
+.signing/
 *.jks
 *.keystore
 *.p12
